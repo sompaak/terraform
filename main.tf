@@ -1,4 +1,4 @@
-resource "google_compute_instance" "vm_instance" {
+resource "google_compute_instance" "vm_instance2" {
   name         = "terraform-instance"
   machine_type = "f1-micro"
 
